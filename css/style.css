@@ -22,7 +22,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .site-logo { position: relative; top: -10px; z-index: 9999; }
 
-.templateux-navbar .site-logo a { font-size: 26px; font-weight: bold; color: #000; }
+.templateux-navbar .site-logo a { font-size: 22px; font-weight: bold; color: #000; }
 
 .templateux-navbar .templateux-menu { position: relative; }
 
@@ -101,9 +101,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-section h2 { line-height: 1.5; }
 
-.templateux-cta { padding: 7em 0; display: block; background: #f8f9fa; position: relative; }
+.templateux-cta { padding: 4em 0; display: block; background: #f8f9fa; position: relative; }
 
-.templateux-cta:before { content: ""; position: absolute; height: 0px; bottom: 0; background: #905fd5; width: 100%; left: 0; -webkit-transition: .3s all ease-out; -o-transition: .3s all ease-out; transition: .3s all ease-out; }
+.templateux-cta:before { content: ""; position: absolute; height: 0px; bottom: 0; background: #212121; width: 100%; left: 0; -webkit-transition: .3s all ease-out; -o-transition: .3s all ease-out; transition: .3s all ease-out; }
 
 .templateux-cta .cta-inner { display: block; text-align: center; }
 
@@ -113,7 +113,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-cta .words-2 { opacity: 0; visibility: hidden; top: 40px; }
 
-.templateux-cta h2 { font-weight: normal; margin-bottom: 0; color: #000; position: relative; bottom: 0; -webkit-transition: .4s all ease; -o-transition: .4s all ease; transition: .4s all ease; }
+.templateux-cta h2 { font-weight: 200; font-size:20px; margin-bottom: 0; color: #000; position: relative; bottom: 0; -webkit-transition: .4s all ease; -o-transition: .4s all ease; transition: .4s all ease; }
 
 .templateux-cta:hover:before, .templateux-cta:focus:before { height: 100%; }
 
@@ -145,19 +145,19 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .project:hover .project-hover .project-hover-inner span, .project:hover .project-hover .post-hover-inner span, .project:hover .post-hover .project-hover-inner span, .project:hover .post-hover .post-hover-inner span, .project:focus .project-hover .project-hover-inner span, .project:focus .project-hover .post-hover-inner span, .project:focus .post-hover .project-hover-inner span, .project:focus .post-hover .post-hover-inner span, .post:hover .project-hover .project-hover-inner span, .post:hover .project-hover .post-hover-inner span, .post:hover .post-hover .project-hover-inner span, .post:hover .post-hover .post-hover-inner span, .post:focus .project-hover .project-hover-inner span, .post:focus .project-hover .post-hover-inner span, .post:focus .post-hover .project-hover-inner span, .post:focus .post-hover .post-hover-inner span { bottom: 0; visibility: visible; opacity: 1; }
 
-.templateux-footer { padding: 7em 0; border-top: 1px solid #F4F4F4; }
+.templateux-footer { padding: 2em 0; border-top: 1px solid #F4F4F4; }
 
 .templateux-footer .container-fluid { max-width: 100%; }
 
-.templateux-footer small { font-size: 16px; }
+.templateux-footer small { font-size: 10px; }
 
 .templateux-footer p:last-child { margin-bottom: 0; }
 
 .templateux-footer .footer-social { position: relative; }
 
-.templateux-footer .footer-social a { color: #b3b3b3; position: relative; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; font-size: 26px; }
+.templateux-footer .footer-social a { color: #b3b3b3; position: relative; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; font-size: 24px; }
 
-.templateux-footer .footer-social a:hover, .templateux-footer .footer-social a:focus { color: #905fd5; ; -webkit-transform: scale(1.7); -ms-transform: scale(1.7); transform: scale(1.7); }
+.templateux-footer .footer-social a:hover, .templateux-footer .footer-social a:focus { color: #000000; ; -webkit-transform: scale(1.7); -ms-transform: scale(1.7); transform: scale(1.7); }
 
 .btn:hover, .btn:focus, .btn:active { outline: none; -webkit-box-shadow: none !important; box-shadow: none !important; }
 
