@@ -14,7 +14,7 @@
 // 2. Change the default font family in all browsers.
 // 3. Correct the line height in all browsers.
 // 4. Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.
-// 5. Setting @viewport causes scrollbars to overlap content in IE11 and Edge, so
+// 5. Setting @View moreport causes scrollbars to overlap content in IE11 and Edge, so
 //    we force a non-overlapping, non-auto-hiding scrollbar to counteract.
 // 6. Change the default tap highlight to be completely transparent in iOS.
 
@@ -33,9 +33,9 @@ html {
   -webkit-tap-highlight-color: rgba($black, 0); // 6
 }
 
-// IE10+ doesn't honor `<meta name="viewport">` in some cases.
+// IE10+ doesn't honor `<meta name="View moreport">` in some cases.
 @at-root {
-  @-ms-viewport {
+  @-ms-View moreport {
     width: device-width;
   }
 }
@@ -247,7 +247,7 @@ pre {
   margin-bottom: 1rem;
   // Don't allow content to break outside
   overflow: auto;
-  // We have @viewport set which causes scrollbars to overlap content in IE11 and Edge, so
+  // We have @View moreport set which causes scrollbars to overlap content in IE11 and Edge, so
   // we force a non-overlapping, non-auto-hiding scrollbar to counteract.
   -ms-overflow-style: scrollbar;
 }
