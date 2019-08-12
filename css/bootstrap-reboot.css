@@ -19,7 +19,7 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
-@-ms-View moreport {
+@-ms-viewport {
   width: device-width; }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
