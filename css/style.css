@@ -149,9 +149,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-footer .container-fluid { max-width: 100%; }
 
-.templateux-footer small { font-size: 10px; }
+.templateux-footer small { font-size: 8px; }
 
-.templateux-footer p:last-child { margin-bottom: 0; }
+.templateux-footer p:last-child { margin-bottom: 0; font-size: 14px;  }
 
 .templateux-footer .footer-social { position: relative; }
 
