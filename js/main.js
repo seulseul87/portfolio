@@ -173,7 +173,7 @@ jQuery(document).ready(function ($) {
       msg.focus();
       return false;
     } else {
-      alert('Loading...');
+      alert('Loading... Please wait.');
       return true;
     }
   }
