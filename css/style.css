@@ -10,7 +10,7 @@ a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .
 
 a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
-.templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 20px 0; z-index: 99999; background-color: #fff;}
+.templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 20px 0 5px 0; z-index: 99999; background-color: #fff;}
 
 .templateux-navbar .container-fluid { max-width: 100%; }
 
@@ -49,7 +49,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar.navbar-light .site-logo a { color: #000; }
 
-.templateux-navbar.navbar-light .hamburger .hamburger-inner, .templateux-navbar.navbar-light .hamburger .hamburger-inner::before, .templateux-navbar.navbar-light .hamburger .hamburger-inner::after { background-color: #fff; }
+.templateux-navbar.navbar-light .hamburger .hamburger-inner, .templateux-navbar.navbar-light .hamburger .hamburger-inner::before, .templateux-navbar.navbar-light .hamburger .hamburger-inner::after { background-color: #000; }
 
 .templateux-navbar.navbar-light .templateux-menu ul li a { color: #000; }
 
