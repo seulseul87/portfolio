@@ -10,7 +10,7 @@ a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .
 
 a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
-.templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 35px 0; z-index: 99999; }
+.templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 20px 0; z-index: 99999; background-color: #fff;}
 
 .templateux-navbar .container-fluid { max-width: 100%; }
 
@@ -20,7 +20,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .toggle-menu:active, .templateux-navbar .toggle-menu:focus { outline: none; }
 
-.templateux-navbar .site-logo { position: relative; top: -10px; z-index: 9999; }
+.templateux-navbar .site-logo { position: relative; top: -2px; z-index: 9999; }
 
 .templateux-navbar .site-logo a { font-size: 22px; font-weight: bold; color: #000; }
 
@@ -47,11 +47,11 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 767.98px) { .templateux-navbar .templateux-menu ul { margin-left: 0px; } }
 
-.templateux-navbar.navbar-light .site-logo a { color: #fff; }
+.templateux-navbar.navbar-light .site-logo a { color: #000; }
 
 .templateux-navbar.navbar-light .hamburger .hamburger-inner, .templateux-navbar.navbar-light .hamburger .hamburger-inner::before, .templateux-navbar.navbar-light .hamburger .hamburger-inner::after { background-color: #fff; }
 
-.templateux-navbar.navbar-light .templateux-menu ul li a { color: #fff; }
+.templateux-navbar.navbar-light .templateux-menu ul li a { color: #000; }
 
 .menu-open .templateux-navbar { position: fixed; left: 0; top: 0; }
 
