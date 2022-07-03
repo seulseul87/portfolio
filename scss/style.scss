@@ -543,22 +543,22 @@ textarea.form-control {
 	margin-top: 70px;
 	&:before {
 		width: 2px;
-    height: 40px;
-    right: 27px;
-    content: "";
-    display: block;
-    position: absolute;
-    background: $red;
-    left: 50%;
-    transform: translateX(-50%);
-    pointer-events: none;
-    top: 0;
-    transition: .3s all ease;
+		height: 40px;
+		right: 27px;
+		content: "";
+		display: block;
+		position: absolute;
+		background: $red;
+		left: 50%;
+		transform: translateX(-50%);
+		pointer-events: none;
+		top: 0;
+		transition: .3s all ease;
     
 	}
 	&:after {
 		content: "";
-    position: absolute;
+    	position: absolute;
 		left: 50%;
 		bottom: -12px;
 		border: solid transparent;
