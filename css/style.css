@@ -6,6 +6,8 @@ body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: Roboto, -
 
 h1, h2, h3, h4, h5 { color: #000; }
 
+.primaryText {color: #461478;}
+
 a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 a:hover, a:active, a:focus { text-decoration: none; outline: none; }
@@ -67,7 +69,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero { background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; }
 
-.templateux-hero .lead { font-size: 28px; }
+.templateux-hero .lead { font-size: 24px; line-height: 34px;}
 
 @media (max-width: 991.98px) { .templateux-hero .lead { font-size: 20px; } }
 
@@ -298,7 +300,7 @@ textarea.form-control { height: inherit; }
 
 .post-meta .sep { margin-left: 10px; margin-right: 10px; }
 
-.block-38 .block-38-header .block-38-heading { font-size: 18px; color: #000; margin: 0; font-weight: 300; }
+.block-38 .block-38-header .block-38-heading { font-size: 22px; color: #000; margin: 0; font-weight: 300; }
 
 .block-38 .block-38-header .block-38-subheading { color: #b3b3b3; margin: 0 0 20px 0; text-transform: uppercase; font-size: 15px; }
 
