@@ -177,7 +177,7 @@ textarea.form-control { height: inherit; }
 
 .button.button--red:hover { text-decoration: none; color: #fff; -webkit-box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.4); box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.4); background: #5a40c9;}
 
-.go-down { position: relative; width: 40px; height: 40px; display: block; margin-left: -15px; position: absolute; margin-top: 70px; }
+.go-down { position: relative; width: 40px; height: 40px; display: block; margin-left: 46%; position: absolute; margin-top: 70px; }
 
 .go-down:before { width: 2px; height: 40px; right: 27px; content: ""; display: block; position: absolute; background: #5a40c9; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); pointer-events: none; top: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
