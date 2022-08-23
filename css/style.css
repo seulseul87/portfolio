@@ -4,13 +4,31 @@ body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: Roboto, -
 
 ::selection { background: rgb(180, 127, 254);}
 
-h1, h2, h3, h4, h5 { color: #000; }
+h1 { color: #000; letter-spacing: -0.1rem; }
+
+h2, h3, h4, h5 { color: #000;  }
 
 .primaryText {color: #461478;}
 
 a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 a:hover, a:active, a:focus { text-decoration: none; outline: none; }
+
+/* video 16:9 = 9/16 = 0.5625% */
+/* video 4:3 = 3/4 = 0.75% */
+.embed-youtube {
+  position:relative;
+  height:0;
+  padding-bottom:56.25%; /* video 16:9 */  
+}
+
+.embed-youtube iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
 
 .templateux-navbar { position: fixed; top: 0; left: 0; width: 100%; padding: 20px 0 5px 0; z-index: 99999; background-color: #fff;}
 
